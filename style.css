@@ -75,6 +75,28 @@ main {
     text-align: center;
 }
 
+.img-container {
+    position: relative;
+}
+
+.image__mobile {
+    /* background-color: #fff; */
+    mix-blend-mode: lighten;
+    opacity: 100%;
+}
+
+.overlay {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    background-color: var(--soft-violet);
+    opacity: 0.6;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
 .container>h1 {
     width: 80%;
     margin: 1rem auto;

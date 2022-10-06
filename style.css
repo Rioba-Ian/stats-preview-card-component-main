@@ -124,6 +124,10 @@ article {
     margin: 1rem 0;
 }
 
+.insights-violet {
+    color: var(--soft-violet);
+}
+
 article>* {
     display: flex;
     flex-direction: column;
